@@ -1,0 +1,26 @@
+{"intents": [
+  {"tag": "greetings",
+   "patterns": ["hello", "hey", "hi", "good day", "greetings","what's up?", "how is it going?"],
+   "responses": ["Hello!", "Hey!", "What can i do for you?"]
+  },
+  {"tag": "goodbye",
+   "patterns": ["cya", "see you later", "goodbye", "bye", "have a good day","i am leaving", "see ya"],
+   "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"]
+  },
+  {"tag": "age",
+   "patterns": ["how old", "how old are you", "what is your age", "how old is marwan", "age?"],
+   "responses": ["My owner Marwan is 28 years old!", "28 years old!"]
+  },
+  {"tag": "name",
+   "patterns": ["what is your name", "what should i call you", "whats your name?", "who are you?"],
+   "responses": ["you can call me Dum-Num", "I'm Dum-Num!","I'm Dum-Num the assistant of Marwan!"]
+  },
+  {"tag": "shop",
+   "patterns": ["Id like to buy something", "what are your products?", "what are you selling?", "what do you recommend?"],
+   "responses": ["Etameid got great services with good prices!", "Here visit us to see our services (https://etameid.com)"]
+  },
+  {"tag": "hours",
+   "patterns": ["when are you guys open", "what are your hours", "what time do you work?", "working hours?"],
+   "responses": ["24/7 baby!"]
+  }
+]}
